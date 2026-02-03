@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "name": "greeting",
+      "patterns": ["oi", "olá", "ola", "bom dia", "boa tarde", "boa noite", "e aí", "eai"],
+      "responses": [
+        "Oi! Em que posso ajudar hoje?",
+        "Olá! Como posso ajudar?",
+        "Oi! Estou por aqui para te ajudar."
+      ]
+    },
+    {
+      "name": "farewell",
+      "patterns": ["tchau", "até mais", "falou", "adeus", "até logo"],
+      "responses": [
+        "Até mais!",
+        "Tchau! Se precisar, estou aqui.",
+        "Até logo!"
+      ]
+    },
+    {
+      "name": "bot_name",
+      "patterns": ["seu nome", "quem é você", "qual é o seu nome"],
+      "responses": [
+        "Eu sou a IA Simples, sua assistente local.",
+        "Pode me chamar de IA Simples.",
+        "Sou a IA Simples, feita para te ajudar."
+      ]
+    },
+    {
+      "name": "thanks",
+      "patterns": ["obrigado", "obrigada", "valeu", "agradecido", "agradecida"],
+      "responses": [
+        "De nada!",
+        "Sempre às ordens!",
+        "Que isso, estamos juntos!"
+      ]
+    },
+    {
+      "name": "capabilities",
+      "patterns": ["o que você faz", "como você funciona", "suas funções", "pode fazer"],
+      "responses": [
+        "Eu reconheço intenções simples, guardo seu nome e uso uma base de conhecimento em JSON.",
+        "Posso conversar, responder perguntas básicas e lembrar informações importantes."
+      ]
+    }
+  ],
+  "fallback": [
+    "Ainda estou aprendendo. Pode reformular?",
+    "Não entendi bem. Tenta dizer de outro jeito?",
+    "Interessante! Conte mais para eu entender melhor."
+  ]
+}
